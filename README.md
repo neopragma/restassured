@@ -17,6 +17,7 @@ RestAssured or Cucumber-JVM?
 
 * More readable (in my opinion); Lambda-style stepdefs are concise, clean
 * Easier to structure code for reusability because you can insert calls to any method in the midst of stepdefs (because it isn't a fluid API)
+* No need to learn and support multiple tools; Cucumber handles both Gherkin parsing and step automation
 
 ## Cucumber cons
 
