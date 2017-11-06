@@ -5,25 +5,17 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
 import java.io.UnsupportedEncodingException;
-import java.net.MalformedURLException;
-import java.net.URL;
 import java.net.URLEncoder;
 
-import org.junit.Test;
-
 import cucumber.api.java.en.Given;
-import cucumber.api.java.en.When;
 import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
 import io.restassured.response.Response;
-import io.restassured.response.ValidatableResponse;
-import io.restassured.specification.RequestSpecification;
 
 public class ApiTestRestAssuredAndCucumber {
 	
 	private String valuesToPush;
-	private RequestSpecification request;
 	private Response response;
-	private ValidatableResponse json;
 	private static final String RPN_SERVICE_BASE_URI = "http://rpn-service.herokuapp.com";
 	private static final String EMPTY_STRING = "";
 	private static final String UTF8 = "UTF-8";
@@ -58,12 +50,12 @@ public class ApiTestRestAssuredAndCucumber {
     
 	@Given("^I push \"([^\"]*)\"$")
 	public void startUriString(String value) {
-        valuesToPush = "/calc/" + encode(value);
+        valuesToPush = "/calc/" + value;
 	}
     
 	@Given("\"([^\"]*)\"$")
 	public void appendToUriString(String value) {
-        valuesToPush += slash + encode(value);
+        valuesToPush += slash + value;
 	}
 
 	@Then("^the result is \"([^\"]*)\"$")
