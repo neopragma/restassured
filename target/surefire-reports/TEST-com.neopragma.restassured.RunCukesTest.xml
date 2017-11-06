@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="12" failures="2" name="com.neopragma.restassured.RunCukesTest" time="0.01" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.101-b13"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/dave/Documents/Projects/restassured"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/dave/Documents/Projects/restassured"/>
+    <property name="java.runtime.version" value="1.8.0_101-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/5w/vrrncq8d0tvcrkpyk27ww2l40000gn/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/Users/dave/Documents/Projects/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf6992516730204700100.tmp"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/dave/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.11.6"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/dave"/>
+    <property name="user.timezone" value="America/Phoenix"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="dave"/>
+    <property name="java.class.path" value="/Applications/sts-bundle/STS.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_1.7.0.20160603-1931/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_101"/>
+    <property name="java.ext.dirs" value="/Users/dave/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/Users/dave/Documents/Projects/restassured/EMBEDDED"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase classname="Scenario: As a person, I want to know what I can do with the RPN service." name="Given I want to know how to call the RPN service" time="0.002"/>
+  <testcase classname="Scenario: As a person, I want to know what I can do with the RPN service." name="When I invoke the RPN service" time="0"/>
+  <testcase classname="Scenario: As a person, I want to know what I can do with the RPN service." name="Then I receive usage documentation" time="0"/>
+  <testcase classname="Scenario: As a person, I want to know what I can do with the RPN service." name="Scenario: As a person, I want to know what I can do with the RPN service." time="0.001"/>
+  <testcase classname="Scenario: As a person, I want to do calculations so that I can have numbers." name="Given I push &quot;6&quot;" time="0"/>
+  <testcase classname="Scenario: As a person, I want to do calculations so that I can have numbers." name="And &quot;4&quot;" time="0"/>
+  <testcase classname="Scenario: As a person, I want to do calculations so that I can have numbers." name="And &quot;5&quot;" time="0"/>
+  <testcase classname="Scenario: As a person, I want to do calculations so that I can have numbers." name="And &quot;+&quot;" time="0"/>
+  <testcase classname="Scenario: As a person, I want to do calculations so that I can have numbers." name="And &quot;*&quot;" time="0"/>
+  <testcase classname="Scenario: As a person, I want to do calculations so that I can have numbers." name="When I invoke the RPN service" time="0.001"/>
+  <testcase classname="Scenario: As a person, I want to do calculations so that I can have numbers." name="Then the result is &quot;54.0&quot;" time="0.003">
+    <failure message="expected:&lt;[54].0&gt; but was:&lt;[6].0&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;[54].0&gt; but was:&lt;[6].0&gt;
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.neopragma.restassured.ApiTestRestAssuredAndCucumber.assertResult(ApiTestRestAssuredAndCucumber.java:71)
+	at ✽.Then the result is &quot;54.0&quot;(com/neopragma/restassured/rpn-calculator.feature:17)
+</failure>
+  </testcase>
+  <testcase classname="Scenario: As a person, I want to do calculations so that I can have numbers." name="Scenario: As a person, I want to do calculations so that I can have numbers." time="0.003">
+    <failure message="expected:&lt;[54].0&gt; but was:&lt;[6].0&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;[54].0&gt; but was:&lt;[6].0&gt;
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.neopragma.restassured.ApiTestRestAssuredAndCucumber.assertResult(ApiTestRestAssuredAndCucumber.java:71)
+	at ✽.Then the result is &quot;54.0&quot;(com/neopragma/restassured/rpn-calculator.feature:17)
+</failure>
+  </testcase>
+</testsuite>

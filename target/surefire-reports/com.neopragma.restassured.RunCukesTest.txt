@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: com.neopragma.restassured.RunCukesTest
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 20.011 sec <<< FAILURE!
+Then the result is "54.0"(Scenario: As a person, I want to do calculations so that I can have numbers.)  Time elapsed: 0.003 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[54].0> but was:<[6].0>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.neopragma.restassured.ApiTestRestAssuredAndCucumber.assertResult(ApiTestRestAssuredAndCucumber.java:71)
+	at ✽.Then the result is "54.0"(com/neopragma/restassured/rpn-calculator.feature:17)
+
+Scenario: As a person, I want to do calculations so that I can have numbers.  Time elapsed: 0.003 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[54].0> but was:<[6].0>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.neopragma.restassured.ApiTestRestAssuredAndCucumber.assertResult(ApiTestRestAssuredAndCucumber.java:71)
+	at ✽.Then the result is "54.0"(com/neopragma/restassured/rpn-calculator.feature:17)
+
